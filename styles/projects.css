@@ -1,0 +1,67 @@
+.cards-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3.2rem 4.5rem;
+}
+
+.card-project {
+  padding: 2.5rem 2rem;
+  background-color: var(--dark);
+}
+
+.box-image-project {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 17rem;
+  margin-bottom: 2.3rem;
+}
+
+#formulario {
+  background-image: url('https://user-images.githubusercontent.com/80359142/139599891-71a206ce-f6c3-4baa-80b2-d0c922959d2f.png');
+}
+
+#mentalista {
+  background-image: url('https://user-images.githubusercontent.com/80359142/134535508-b962b595-955a-4d44-a5f3-9d670396c499.png');
+}
+
+#trunfo {
+  background-image: url('../assets/feppeli.github.io_teste-doutor-multas_.png');
+}
+
+#locadora {
+  background-image: url('../assets/feppeli.github.io_signup-desafio_.png');
+}
+
+#conversorMoedas {
+  background-image: url('https://user-images.githubusercontent.com/80359142/133846624-9eb88e26-417e-4c9a-8158-7a7bd29610db.PNG');
+}
+
+#classificacao {
+  background-image: url('../assets/feppeli.github.io_Inforseg.net_.png');
+}
+
+.card-project img {
+  margin-bottom: 2.3rem;
+}
+
+.card-project > p:nth-child(2) {
+  font-weight: 500;
+}
+
+.card-project > p:nth-child(3) {
+  color: var(--grey);
+  font-size: 1.4rem;
+}
+
+@media (max-width: 1280px) {
+  .cards-projects {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 738px) {
+  .cards-projects {
+    grid-template-columns: 1fr;
+  }
+}
